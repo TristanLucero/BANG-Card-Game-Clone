@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs_2365_project_3.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="157.0" fitWidth="488.0" layoutX="1.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bang!.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="16.0" layoutY="269.0" prefHeight="34.0" prefWidth="157.0" text="Select Number of Players:" />
+      <RadioButton fx:id="numPlayers4" layoutX="168.0" layoutY="277.0" mnemonicParsing="false" onAction="#numPlayers4" prefHeight="13.0" prefWidth="21.0" text="4" />
+      <RadioButton fx:id="numPlayers5" layoutX="217.0" layoutY="276.0" mnemonicParsing="false" onAction="#numPlayers5" prefHeight="13.0" prefWidth="21.0" text="5" />
+      <RadioButton fx:id="numPlayers6" layoutX="264.0" layoutY="276.0" mnemonicParsing="false" onAction="#numPlayers6" prefHeight="13.0" prefWidth="21.0" text="6" />
+      <RadioButton fx:id="numPlayers7" layoutX="310.0" layoutY="276.0" mnemonicParsing="false" onAction="#numPlayers7" prefHeight="13.0" prefWidth="21.0" text="7" />
+      <RadioButton fx:id="numPlayers8" layoutX="358.0" layoutY="276.0" mnemonicParsing="false" onAction="#numPlayers8" prefHeight="13.0" prefWidth="21.0" text="8" />
+      <Label layoutX="65.0" layoutY="321.0" text="Game Type:" />
+      <RadioButton fx:id="playNormalGameButton" layoutX="178.0" layoutY="322.0" mnemonicParsing="false" onAction="#gameTypeNormal" text="Normal Game" />
+      <RadioButton fx:id="playExpansionGameButton" layoutX="305.0" layoutY="322.0" mnemonicParsing="false" onAction="#gameTypeExpansion" text="Expansion Pack" />
+      <Button fx:id="onwardButton" layoutX="180.0" layoutY="374.0" mnemonicParsing="false" onAction="#playNormalGame" prefHeight="34.0" prefWidth="130.0" text="ONWARD" />
+   </children>
+</AnchorPane>
